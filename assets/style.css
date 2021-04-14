@@ -1,0 +1,181 @@
+a{
+    text-decoration: none;
+}
+/*General containers*/
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+.smal-container{
+    width: 25%;
+    height: auto;
+    display: flex;
+}
+.secondCON{
+    width: 40% !important;
+    flex-direction: column;
+}
+.lastCon{
+    width: 35% !important;
+}
+
+/*inside of first column , icons and links*/
+.FirstRowLinkDiv{
+    display: flex;
+    width: 100%;
+    height: 165px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 35%;
+    margin-top: 1%;
+}
+.FirstRowLinkDiv>a , .FirstRowLinkDiv>a>i {
+    font-size: 25px;
+    color: black;
+    
+}
+.FirstRowLinkDiv>a{
+    padding:5px;
+}
+.fa-twitter{
+    color: rgb(51, 190, 224) !important;
+}
+
+/*Mid col fic header*/
+
+.AbsDiv{
+    position: relative !important;
+}
+.FixMidTopDiv {
+    display: flex;
+    height: 30px;
+    width: 37.4%;
+    padding: 20px;
+    background-color: white; 
+    justify-content: flex-start;
+    align-items: center;
+    position:fixed ;
+    top: 0;
+    /* left: 0; */
+}
+.fa-check-circle{
+    margin-left: 5px;
+}
+.fa-check-circle , .fa-arrow-left {
+    color:  rgb(51, 190, 224);
+    font-size: 20px;
+}
+
+.TwitterText{
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Bevan', cursive;
+font-family: 'Changa One', cursive;
+font-family: 'Days One', sans-serif;
+*/
+.TwitterText > p:first-child {
+    font-size:20px;
+    font-weight:900;
+    margin-bottom: 0;
+    font-family: inherit;
+}
+.TwitterText > p:last-child {
+    margin-top: 0;
+    font-size: 12px;
+    color:gray;
+}
+
+
+/*mid col - img */
+
+
+.ImgFirst {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;  
+}
+.ImgFirst > img {
+    height: 200px;
+    width: 100%;
+    
+}
+
+/* circle Twitter img*/
+
+.CircleDiv{
+    width: 100%;
+    height:55px;
+    position: relative;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.circleİMG {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -83px;
+    left: 25px;
+} 
+
+.circleİMG > img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+/*link*/
+
+.follow {
+    color: rgb(47, 192, 211);
+    border-radius: 25px;
+    border: 1.5px solid  rgb(47, 192, 211);
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    margin-top: 2%;
+    margin-right: 2.5%;
+    font-weight: bolder;
+   padding:1%;
+
+}
+.follow:hover {
+    background-color: rgb(223, 241, 252);
+    color: rgb(47, 192, 211);
+    transition: ease 1s;
+}
+
+/*After circle img*/
+.imgfooter{
+    color: gray;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    line-height:50px;
+    font-size: 17px;
+}
+.imgfooter>p{
+    color: rgb(39, 38, 38);
+}
+.cntwords{
+    display: flex;
+    width: 70%;
+    height: 50px;
+    flex-wrap: wrap !important;
+    line-height: 3px;
+    justify-content: space-between;
+    font-size: 18px;
+}
