@@ -18,6 +18,7 @@ a{
     width: 25%;
     height: auto;
     display: flex;
+    
 }
 .secondCON{
     width: 40% !important;
@@ -26,6 +27,9 @@ a{
 }
 .lastCon{
     width: 35% !important;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 25px;
 }
 
 /*inside of first column , icons and links*/
@@ -83,7 +87,7 @@ a{
   
 }
 .FixarrowDiv , .TwitterText {
-    margin-top: 15px;
+    margin-top:5px;
 }
 
 /*
@@ -290,9 +294,9 @@ font-family: 'Days One', sans-serif;
 }
 
 .SearchDiv{
-    width: 70%;
-    height: 50px;
-    background-color: lightgray;
+    width: 60%;
+    height: 45px;
+    background-color: rgb(233, 243, 248);
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -302,11 +306,119 @@ font-family: 'Days One', sans-serif;
     outline: none !important;
     border: none !important;
     font-size: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     background-color: transparent;
-    color:rgb(33, 33, 59)
+    color:gray;
 }
-.SearchDiv>input::placeholder {
-   color:rgb(33, 33, 59)
+.SearchDiv>input::placeholder ,.SearchDiv>i {
+   color:gray;
+}
+
+
+/*third column after search */
+
+.areYouNew{
+    width:65% ;
+    height: 130px;
+    margin-top:13%;
+    border-radius: 15px;
+    border:1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+}
+.titleh1{
+    align-self: flex-start !important;
+    margin-left: 3px;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 20px;
+}
+.btnform{
+    width: 95%;
+    height: 40px;
+    background-color: rgb(52, 188, 223);
+    border-radius: 30px;
+}
+.btnform>button{
+    background-color: transparent;
+    border:none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*grid pictures*/
+.gridPicDiv{
+    width: 65%;
+    height:200px;
+    border:1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border-radius: 10px;
+    
+}
+.gridPic{
+    height:97px;
+    width: 33%;
+   
+}
+.one {
+    border-top-left-radius: 10px;   
+}
+.four {
+    border-bottom-left-radius:10px ;
+}
+.three{
+    border-top-right-radius:10px;
+}
+.six{
+    border-bottom-right-radius:10px; 
+}
+
+/*Next people explore and follow div */
+
+.PeopleDiv{
+    background-color: rgb(233, 243, 248);
+    height: auto !important;
+}
+.mightH1{
+    border-bottom:1px solid lightgray;
+    padding-left: 10px;
+    height: 30px;
+    width: 90%;
+    text-align: left;
+}
+.mightp{
+    font-size: 17px !important;
+    margin-top: 6px !important;
+}
+.migtDv{
+    height: 50px;
+    width: 50%;
+    margin:0 !important;
+   
+}
+.mightPicDiv{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../img/Btnfm47p_400x400.jpg);
+}
+.mightinsidecon{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-bottom:1px solid lightgray;
+    justify-content: space-between;
+    padding: 5px;
+    
 }
 
