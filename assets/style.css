@@ -388,13 +388,15 @@ font-family: 'Days One', sans-serif;
 .PeopleDiv{
     background-color: rgb(233, 243, 248);
     height: auto !important;
+    padding: 5px;
 }
 .mightH1{
     border-bottom:1px solid lightgray;
-    padding-left: 10px;
-    height: 30px;
+    padding:10px;
+    height: 40px;
     width: 90%;
     text-align: left;
+    
 }
 .mightp{
     font-size: 17px !important;
@@ -420,5 +422,9 @@ font-family: 'Days One', sans-serif;
     justify-content: space-between;
     padding: 5px;
     
+}
+
+.areYouNew , .gridPicDiv {
+    margin-bottom: 5%;
 }
 
