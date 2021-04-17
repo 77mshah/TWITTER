@@ -412,7 +412,20 @@ font-family: 'Days One', sans-serif;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-image: url(../img/Btnfm47p_400x400.jpg);
+    background-image: url(../img/google.jpg);
+    background-size: cover;
+}
+.mightPicDiv2 {
+    background-image: url(../img/youtube.jpg) !important;   
+}
+.mightPicDiv3 {
+    background-image: url(../img/bill\ gates.jpg) !important; 
+}
+.Showmore{
+    height: 30px;
+    color: rgb(39, 139, 197);
+    font-size: 18px;
+    padding: 10px;
 }
 .mightinsidecon{
     display: flex;
@@ -423,8 +436,28 @@ font-family: 'Days One', sans-serif;
     padding: 5px;
     
 }
-
 .areYouNew , .gridPicDiv {
     margin-bottom: 5%;
+}
+
+/*TRENDS FOR YOU SECTION*/
+
+
+
+
+
+
+
+/*Footer*/
+footer{
+    width: 100%;
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    background-color: rgb(57, 161, 209);
+    color: white;
+    flex-direction: row;
+
+
 }
 
