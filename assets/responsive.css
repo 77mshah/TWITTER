@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1430px) {
+    .areYouNew {
+        margin-top: 16%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1153px) {
+    .areYouNew {
+        margin-top: 20%;
+    }
+}
+
+
+
+@media only screen and (max-width: 923px) {
+    .lastCon {
+        display: none;
+    }
+}
